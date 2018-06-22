@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ApplyProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ApplyProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ApplyProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ApplyProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../包/数据库驱动/MySql/mysql-connector-java-5.1.44-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
